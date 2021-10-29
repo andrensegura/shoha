@@ -6,6 +6,7 @@ responses = {
                "> pogger\new",
                "> pogger\n:nauseated_face:"
               ],
+    "reporting cringe": [":rotating_light: CRINGE ALERT :rotating_light:"],
     "ligma balls": ["https://i.imgur.com/HPduAKn.gif",
                     "https://tenor.com/view/ligma-balls-gif-22082587",
                     "https://tenor.com/view/dead-i-am-dead-ded-terminator-terminator2-gif-5663820",
@@ -16,6 +17,10 @@ responses = {
                     "https://i.gifer.com/ZIEl.gif",
                     "http://pa1.narvii.com/7122/2ff09872e9d4ee1dc65f123ddc9534afa965a9edr1-250-180_00.gif",
                     "https://c.tenor.com/VcU44mUEVj4AAAAC/explosion-anime.gif"
+                ],
+    "group howl":  ["https://c.tenor.com/QO7xUjghozAAAAAM/awoo-girl.gif",
+                    "https://i.kym-cdn.com/photos/images/original/000/912/800/0e2.gif",
+                    "https://i.4pcdn.org/pol/1418211329634.gif"
                 ]
 }
 
