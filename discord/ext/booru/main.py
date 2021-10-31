@@ -18,11 +18,11 @@ class Booru(commands.Cog):
         return (page_link, image_link)
 
     @commands.command()
-    async def booru(self, ctx, *arg):
-        if not arg:
+    async def booru(self, ctx, tag: str):
+        if not tag:
+            await ctx.send("Need a tag.\n`shoha booru \"tag_here\"`")
             return
         
-        tag = arg
         post = self.get_post(tag)
         embed=Embed(title="random " + tag, color=0xfdf6e6)
         embed.add_field(name="Post URL:", inline=False)
