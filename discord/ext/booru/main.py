@@ -16,7 +16,6 @@ class Booru(commands.Cog):
         while result['rating'] != search_rating:
             results = client.post_list(limit=1, tags=search_tag, random=True)
             result = results[0]
-        print(result)
         page_link = "https://danbooru.donmai.us/posts/" + str(result['id'])
         image_link = result['file_url']
         return (page_link, image_link)
